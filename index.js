@@ -1,5 +1,11 @@
 //document.getElementById("count-el").innerText=6
 
+
+let count = 0;
+
 function increment() {
-alert("button was clicked");
+  count = count + 1 ;
+  document.getElementById("count-el").innerText = count;
 }
+
+
