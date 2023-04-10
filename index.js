@@ -13,8 +13,9 @@ function increment() {
 }
 
 function save() {
-let number = count + " - ";
-saveEl.textContent += number;  
+let message = count + " - ";
+saveEl.textContent += message;  
 
-  
+  countEl.textContent = 0;
+  count = 0;
 }
