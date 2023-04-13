@@ -1,47 +1,47 @@
 body {
-    background-image: url("station.jpeg");
-    background-size: cover;
-    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
-    height:100hv;
-    text-align: center;
+  background-image: url("station.jpeg");
+  background-size: cover;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100hv;
+  text-align: center;
 }
-.container{
- background: white;
- max-width: 600px;
- margin:auto;
- border: 3px solid black;
- border-radius: 10px;
+.container {
+  background: white;
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 button {
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    transition:all 200ms ease-in-out;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
 }
 
 #increment-btn {
-    background: darkred;
+  background: darkred;
 }
 
 #save-btn {
-    background: darkgreen;
+  background: darkgreen;
 }
-#save-el{
-    font-weight: bold;
+#save-el {
+  font-weight: bold;
 }
